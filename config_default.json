@@ -1,0 +1,26 @@
+{
+  "window": {
+    "width": 1180,
+    "height": 900
+  },
+  "appearance_mode": "System",
+  "color_theme": "blue",
+  "gitea": {
+    "base_url": "https://git.example.com",
+    "api_base_path": "/api/v1",
+    "token": "",
+    "token_env": "GITEA_TOKEN",
+    "username": "",
+    "verify_tls": true,
+    "timeout_s": 30,
+    "page_limit": 50,
+    "user_agent": "gitea-activity-chart/1.0"
+  },
+  "query": {
+    "days_back": 180,
+    "group_by": "day",
+    "rolling_average_days": 7,
+    "only_performed_by": true,
+    "include_today": true
+  }
+}

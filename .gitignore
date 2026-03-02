@@ -1,0 +1,8 @@
+# Local overrides / secrets
+/config.json
+
+# Optional: generated state
+/_repo_sync_manifest.json
+
+# Logs
+/_logs
